@@ -56,6 +56,31 @@ const Services = () => {
             <Image width={500} height={500} className="object-cover object-center rounded max-h-96" alt="hero" src="/img/party.jpg" />
           </div>
         </div>
+        <div class="container mx-auto flex py-10 md:flex-row flex-col items-center">
+          <div class="lg:max-w-md relative lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <Image width={500} height={500} className="object-cover object-center rounded max-h-96" alt="hero" src="/img/fashion.jpg" />
+          </div>
+          <div class="lg:flex-grow px-5 md:w-1/2 lg:pl-16 md:pl-12 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-amber-500">Nail Art
+            </h1>
+            <p class="mb-8 leading-relaxed">
+              We fully understand what makes you look the best in pictures. We create your perfect looks with the help of our professional expertise. We have worked with professional models, high fashion shows & editorials & are highly experienced in giving you the look that brings out that oomph in pictures.
+            </p>
+          </div>
+        </div>
+        <div class="container mx-auto flex py-10 md:flex-row flex-col-reverse items-center">
+          <div class="lg:flex-grow md:w-1/2 px-5 lg:pr-16 md:pr-12 flex flex-col  md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-amber-500">
+              Hairstyling
+            </h1>
+            <p class="mb-8 leading-relaxed">
+              We provide special party makeup services to cater to all your makeover needs. We provide you the best look so you can enjoy being the center of spotlight at every event.
+            </p>
+          </div>
+          <div class="lg:max-w-md lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 relative">
+            <Image width={500} height={500} className="object-cover object-center rounded max-h-96" alt="hero" src="/img/party.jpg" />
+          </div>
+        </div>
       </section>
     </div>
   )

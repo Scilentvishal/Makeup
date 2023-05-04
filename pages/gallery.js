@@ -89,16 +89,16 @@ const gallery = () => {
             alt: "makeup"
         },
     ]
-  return (
-    <div className="py-16">
-         <h1 className='lg:text-6xl text-4xl font-mono text-center font-black text-amber-500'>Our work</h1>
-    <div className='max-w-6xl w-full gap-3 md:columns-3 sm:columns-2 columns-1 space-y-3 p-5 mx-auto text-center'>
-        {gallery.map((img) => (
-              <Image key={img.id} src={`/gallery/${img.img}`} width={400} height={500} className="mx-auto" alt="Image description" />
-          ))}
-    </div>
-    </div>
-  )
+    return (
+        <div className="py-16">
+            <h1 className='lg:text-6xl text-4xl font-mono text-center font-black text-amber-500'>Our work</h1>
+            <div className='max-w-6xl w-full gap-3 md:columns-3 sm:columns-2 columns-1 space-y-3 p-5 mx-auto text-center'>
+                {gallery.map((img) => (
+                    <Image key={img.id} src={`/gallery/${img.img}`} width={400} height={500} className="mx-auto border-amber-500 border-2" alt="Image description" />
+                ))}
+            </div>
+        </div>
+    )
 }
 
 export default gallery
